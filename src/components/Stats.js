@@ -17,7 +17,7 @@ const Stats = () => {
         justifyContent="space-between"
       >
         <HeadingButtons />
-        <Stack sx={{ pt: 0 }} direction="column" spacing={0}>
+        <Stack sx={{ pt: 0, pb: 3 }} direction="column" spacing={0}>
           <Typography align={"right"}>{`Last Timestamp: ${Math.round(
             lastTimestamp
           )}`}</Typography>
